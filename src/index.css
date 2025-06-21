@@ -42,3 +42,7 @@
 .animate-scroll-loop {
   animation: scroll-loop 15s linear infinite;
 }
+
+.footer-logo {
+  @apply hover:text-gray-300 transition hover:scale-110;
+}

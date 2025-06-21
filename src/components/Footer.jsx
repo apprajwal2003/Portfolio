@@ -12,7 +12,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/apprajwal03/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-300 transition"
+          className="footer-logo"
           title="LinkedIn"
         >
           <FaLinkedin />
@@ -21,7 +21,7 @@ const Footer = () => {
           href="https://leetcode.com/u/apprajwal/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-300 transition"
+          className="footer-logo"
           title="LeetCode"
         >
           <SiLeetcode />
@@ -30,21 +30,17 @@ const Footer = () => {
           href="https://x.com/a_p_prajwal"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-300 transition"
+          className="footer-logo"
           title="Twitter / X"
         >
           <FaXTwitter />
         </a>
-        <a
-          href="tel:+919353015330"
-          className="hover:text-gray-300 transition"
-          title="Call"
-        >
+        <a href="tel:+919353015330" className="footer-logo" title="Call">
           <FaPhoneAlt />
         </a>
         <a
           href="mailto:apprajwalwork@gmail.com"
-          className="hover:text-gray-300 transition"
+          className="footer-logo"
           title="Email"
         >
           <MdEmail />

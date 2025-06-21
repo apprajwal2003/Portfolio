@@ -35,7 +35,6 @@ export default function ThemeToggle() {
         }`}
       >
         {isDarkMode ? (
-          // Moon Icon (outline)
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-4 h-4 text-black"

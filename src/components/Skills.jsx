@@ -12,7 +12,7 @@ const Skills = () => {
   const logos = Object.entries(skillImages); // [path, url]
 
   return (
-    <section className="overflow-hidden w-full mt-10 px-6 py-8">
+    <section className="overflow-hidden w-full mt-10 md:px-6 md:py-8">
       <h2 className="text-3xl font-bold mb-10 text-center">SKILLS</h2>
       <div className="relative w-full overflow-hidden">
         <div className="flex w-max animate-scroll-loop whitespace-nowrap gap-10 px-6">

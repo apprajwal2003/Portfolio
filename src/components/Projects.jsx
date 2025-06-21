@@ -4,7 +4,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <section className="mt-10 px-6 py-8">
+    <section className="mt-10 md:px-6 md:py-8">
       <div className="max-w-6xl mx-auto text-center mb-10">
         <h2 className="text-3xl font-bold mb-6 text-center">MY PROJECTS</h2>
       </div>
@@ -23,20 +23,22 @@ const Projects = () => {
             <h3 className="text-2xl font-semibold mb-2 text-white">
               {project.title}
             </h3>
-            <p className="text-white mb-4">{project.description}</p>
+            <p className="text-white mb-4 max-md:text-xs">
+              {project.description}
+            </p>
 
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech, i) => (
                 <span
                   key={i}
-                  className="px-3 py-1 text-sm bg-white/20 text-white rounded-full"
+                  className="px-3 py-1 text-sm bg-white/20 text-white rounded-full max-md:text-xs"
                 >
                   {tech}
                 </span>
               ))}
             </div>
 
-            <div className="flex gap-4 mt-auto">
+            <div className="flex gap-4 mt-auto max-md:text-xs">
               {project.githubLink && (
                 <a
                   href={project.githubLink}

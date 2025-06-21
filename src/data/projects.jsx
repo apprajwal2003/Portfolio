@@ -19,11 +19,11 @@ export const projects = [
     description: (
       <>
         Video calling app using WebRTC and Socket.IO for real-time
-        communication.
+        communication. Also includes a chat feature for seamless messaging.
         <br />
-        <span className="text-yellow-300 text-sm">
+        <span className="text-yellow-300 text-sm max-md:text-xs">
           PS: I used free hosting so it might take a minute to load backend
-          server for login.
+          server for signning in.
         </span>
       </>
     ),
@@ -39,7 +39,6 @@ export const projects = [
         E-commerce platform for agricultural products, connecting farmers with
         local suppliers and services.
         <br />
-        <span className="text-yellow-300 text-sm">PS: Under development.</span>
       </>
     ),
     technologies: [

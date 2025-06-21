@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="min-h-screen animated-gradient text-white font-mono tracking-tighter">
       <ThemeToggle />
-      <main className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 py-10 ">
+      <main className="max-w-7xl mx-auto px-4 sm:px-0 md:px-12 py-10 ">
         {/* Portfolio Sections */}
         <Hero scrollToContact={scrollToContact} />
         <About />

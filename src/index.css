@@ -5,3 +5,40 @@
 .contact-field {
   @apply bg-white/10 text-white border border-white/30 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-white/50 placeholder-white/60;
 }
+
+.contact-error {
+  @apply text-red-300 dark:text-red-400 text-sm;
+}
+
+@keyframes gradient-xy {
+  0%,
+  100% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
+.animated-gradient {
+  @apply bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700;
+  background-size: 200% 200%;
+  animation: gradient-xy 6s ease infinite;
+}
+
+.dark .animated-gradient {
+  @apply from-black via-gray-800 to-black;
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.3333%);
+  }
+}
+
+.animate-scroll-loop {
+  animation: scroll-loop 15s linear infinite;
+}

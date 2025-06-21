@@ -25,11 +25,13 @@
 .animated-gradient {
   @apply bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700;
   background-size: 200% 200%;
-  animation: gradient-xy 6s ease infinite;
+  animation: gradient-xy 20s ease infinite;
 }
 
 .dark .animated-gradient {
-  @apply from-black via-gray-800 to-black;
+  @apply bg-gradient-to-r from-black via-blue-950 to-black;
+  background-size: 200% 200%;
+  animation: gradient-xy 20s ease infinite;
 }
 
 @keyframes scroll-loop {

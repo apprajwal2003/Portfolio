@@ -51,7 +51,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="text-sm text-center text-gray-200 dark:text-gray-400">
+      <div className="text-xs md:text-sm text-center text-gray-200 dark:text-gray-400">
         &copy; {new Date().getFullYear()} A P Prajwal. All rights reserved.
       </div>
     </footer>

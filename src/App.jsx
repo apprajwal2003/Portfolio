@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen transition-colors duration-500 bg-gradient-to-r from-blue-500 to-purple-500 dark:from-gray-900 dark:to-gray-800 text-white dark:text-gray-100 font-mono">
+    <div className="min-h-screen transition-colors duration-500 bg-gradient-to-r from-blue-700 to-purple-700 dark:from-black dark:to-black text-white dark:text-gray-100 font-mono tracking-tighter">
       <ThemeToggle />
       <main className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 py-10 space-y-20">
         {/* Portfolio Sections */}

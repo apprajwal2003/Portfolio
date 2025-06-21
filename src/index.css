@@ -1,3 +1,7 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+.contact-field {
+  @apply bg-white/10 text-white border border-white/30 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-white/50 placeholder-white/60;
+}

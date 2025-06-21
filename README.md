@@ -4,25 +4,20 @@ Welcome to my personal portfolio website! This site showcases my **about**, **pr
 
 ## 🔗 Live Preview
 
-[Visit the Portfolio →](https://your-portfolio-url.com)
-
-## 📸 Preview
-
-![Portfolio Screenshot](./screenshot.png)
+[Visit the Portfolio →](https://portfolio-a-p-prajwal.vercel.app/)
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Framework**: [React.js](https://react.dev/) (or Vite if applicable)
-- **Styling**: Tailwind CSS / Bootstrap / Custom CSS
-- **Deployment**: GitHub Pages / Vercel / Netlify
+- **Framework**: [React.js](https://react.dev/)
+- **Styling**: Tailwind CSS / Custom CSS
+- **Deployment**: Vercel
 
 ## 📁 Features
 
 - ✨ Interactive and clean UI
 - 💼 Showcases featured projects with links to GitHub
-- 📜 Resume/CV download
-- 📫 Contact form (via email or service like Formspree)
+- 📫 Contact form
 - 🔍 Skills and tech stack section
-- 🧠 About me section with background and goals
-- 🌓 Dark mode (optional)
+- 🧠 About me section
+- 🌓 Dark mode

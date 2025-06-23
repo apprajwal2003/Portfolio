@@ -50,3 +50,26 @@
 .footer-logo {
   @apply hover:text-gray-300 transition hover:scale-110;
 }
+
+.color-empty {
+  fill: #ebedf0;
+}
+.color-github-1 {
+  fill: #c6e48b;
+}
+.color-github-2 {
+  fill: #7bc96f;
+}
+.color-github-3 {
+  fill: #239a3b;
+}
+.color-github-4 {
+  fill: #196127;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-week > rect {
+  rx: 6px; /* rounded corners */
+  ry: 6px;
+  stroke: #444;
+  stroke-width: 1px;
+}

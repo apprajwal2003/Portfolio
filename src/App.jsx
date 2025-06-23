@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Heatmap from "./components/HeatMap";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -24,6 +25,7 @@ function App() {
         {/* Portfolio Sections */}
         <Hero scrollToContact={scrollToContact} />
         <About />
+        {/* <Heatmap /> */}
         <Skills />
         <Projects />
         <Contact ref={contactRef} />

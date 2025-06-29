@@ -23,7 +23,7 @@ export const projects = [
         <br />
         <span className="text-yellow-300 text-sm max-md:text-xs">
           PS: I used free hosting so it might take a minute to load backend
-          server for signning in.
+          server for signing in.
         </span>
       </>
     ),

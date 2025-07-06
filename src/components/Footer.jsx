@@ -26,7 +26,7 @@ const Footer = () => {
         >
           <SiLeetcode />
         </a>
-        <a
+        {/* <a
           href="https://x.com/a_p_prajwal"
           target="_blank"
           rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const Footer = () => {
           title="Twitter / X"
         >
           <FaXTwitter />
-        </a>
+        </a> */}
         <a href="tel:+919353015330" className="footer-logo" title="Call">
           <FaPhoneAlt />
         </a>

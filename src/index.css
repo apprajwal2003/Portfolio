@@ -23,7 +23,7 @@
 }
 
 .animated-gradient {
-  @apply bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700;
+  @apply bg-gradient-to-r from-blue-700 via-blue-300 to-blue-700;
   background-size: 200% 200%;
   animation: gradient-xy 20s ease infinite;
 }
